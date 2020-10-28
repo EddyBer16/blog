@@ -1,0 +1,34 @@
+@import '../variables';
+
+article.post {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5vw;
+
+    width: calc(100vw-(#{$padding*2}));
+
+    img.post-img {
+        width: 35vw;
+        border-radius: 2vw;
+    }
+
+    div.post-data-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: space-around;
+
+        margin-left: 5vw;
+        height: 100%;
+        width: 100%;
+
+        .post-title {
+            font-weight: bold;
+            font-size: 5vw;
+        }
+
+        .post-date {
+            font-size: 4.5vw;
+        }
+
+    }
+}

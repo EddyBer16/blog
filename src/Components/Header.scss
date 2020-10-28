@@ -1,0 +1,16 @@
+@import '../variables';
+
+header.wrapper {
+    width: calc(100vw-(#{$padding*2}));
+    height: 20vw;
+
+    margin: 0;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    img {
+        height: 45%;
+    }
+}

@@ -1,0 +1,25 @@
+@import '../variables';
+
+div#MostViewedPost {
+    h1 {
+        &.title {
+            margin-left: $padding;
+        }
+
+        &.mvp-title {
+            font-weight: bold;
+            font-size: 7vw;
+        }
+    }
+        
+
+    p.mvp-date {
+        font-weight: normal;
+        font-size: 5vw;
+        color: rgba($color: #3C3C43, $alpha: .6)
+    }
+
+    img.mvp-img {
+        width: 100%;
+    }
+}

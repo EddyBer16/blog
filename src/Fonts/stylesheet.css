@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('SFProDisplay-Bold.eot');
+    src: url('SFProDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('SFProDisplay-Bold.woff2') format('woff2'),
+        url('SFProDisplay-Bold.woff') format('woff'),
+        url('SFProDisplay-Bold.ttf') format('truetype'),
+        url('SFProDisplay-Bold.svg#SFProDisplay-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
