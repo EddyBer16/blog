@@ -1,7 +1,7 @@
 # Hello!
 This is my project for CodeWithFriends Fall 2020
 
-<img src="./src/Images/Mobile-Light.jpg" alt="Mobile Design - Light" width="200" height="800" />
+<img src="./src/Images/Mobile-Light.jpg" alt="Mobile Design - Light" width="207" height="587.5" />
 
 ## What's my project about?
 Well, this is my blog, I coded the backend using JavaScript, specifically Node.js, and the frontend using React.js
