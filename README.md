@@ -4,7 +4,7 @@ This is my project for CodeWithFriends Fall 2020
 <img src="./src/Images/Mobile-Light.jpg" alt="Mobile Design - Light" width="207" height="587.5" />
 
 ## What's my project about?
-Well, this is my blog, I coded the backend using JavaScript, specifically Node.js, and the frontend using React.js 
+Well, this is my blog **(MOBILE VERSION :worried: )**, I coded the backend using JavaScript, specifically Node.js, and the frontend using React.js 
 
 It's just a kind of landing page right now, but then I'm gonna add more functionalities 
 
