@@ -1,9 +1,9 @@
 # Hello!
 This is my project for CodeWithFriends Fall 2020
 
-![](./src/Images/Mobile-Light.jpg =250x)
+<img src="./src/Images/Mobile-Light.jpg" alt="Mobile Design - Light" width="200" height="800" />
 
-## What's this project about?
+## What's my project about?
 Well, this is my blog, I coded the backend using JavaScript, specifically Node.js, and the frontend using React.js
 It's just a kind of landing page right now, but then I'm gonna add more functionalities
 You can see my blog [live](https://eddyber16.github.io/blog)
