@@ -4,7 +4,7 @@ This is my project for CodeWithFriends Fall 2020
 <img src="./src/Images/Mobile-Light.jpg" alt="Mobile Design - Light" width="207" height="587.5" />
 
 ## What's my project about?
-Well, this is my blog **(MOBILE VERSION :worried: )**, I coded the backend using JavaScript, specifically Node.js, and the frontend using React.js 
+Well, this is my blog **(just landing page without functionality)**, I coded the backend using JavaScript, specifically Node.js, and the frontend using React.js 
 
 It's just a kind of landing page right now, but then I'm gonna add more functionalities 
 
@@ -26,6 +26,7 @@ Then how to use GitHub workflows, and a bit of Unit Testing in Node.js with moch
 - [ ] Upload post photos
 - [ ] Authentication and admin page
 - [ ] Add views counter to db fields
+- [ ] Add tags to db fields
 - [ ] Readjust `created_at` field format, ex. "october 27, 2020"
 
 ### Frontend
@@ -33,5 +34,7 @@ Then how to use GitHub workflows, and a bit of Unit Testing in Node.js with moch
 - [ ] Loading animation
 - [ ] Try to learn Redux and implement it
 - [ ] Add some personalized components, like headers
-- [ ] Set a responsive layout padding (left and right)
 - [ ] Sort posts by creation date
+- [ ] Add a section for All Posts, with a search bar, and add tags
+- [x] Set 4 posts for Recent Posts number
+- [x] Set a responsive layout padding (left and right)

@@ -57,13 +57,14 @@
 }
 
 .title {
-    font-size: 8vw;
+    font-size: 1.75em;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 .text-loading {
-    font-size: 7vw;
+    font-size: 1.5em;
+    text-align: center;
     font-weight: normal;
     color: rgba($color: #3C3C43, $alpha: .6);
 }
@@ -75,6 +76,7 @@
 footer {
     width: 100vw;
     height: 10vw;
+    max-height: 50px;
 
     border-top: solid .5px rgba($color: #000, $alpha: .3);
 
@@ -83,7 +85,7 @@ footer {
     align-items: center;
     flex-direction: row;
 
-    font-size: 3.75vw;
+    font-size: 1em;
 
     .text-tertiary {
         margin-right: 2.5px;

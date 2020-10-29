@@ -24,19 +24,17 @@ class MostViewedPost extends React.Component {
 
     render() {
         if(!this.state.isLoading) {
-            let MostViewedPostDate = `
-                ${this.state.MostViewedPost.created_at.month}
-                ${this.state.MostViewedPost.created_at.date},
-                ${this.state.MostViewedPost.created_at.year}
-            `
+            let MostViewedPostDate = `${this.state.MostViewedPost.created_at.month} ${this.state.MostViewedPost.created_at.date}, ${this.state.MostViewedPost.created_at.year}`
 
             return (
                 <div id="MostViewedPost">
                     <h1 className="title">Most Viewed Post</h1>
-                    <img className="mvp-img" src="https://images.unsplash.com/photo-1580408485028-225972105876" alt="Test"/>
-                    <div className="wrapper">
-                        <h1 className="mvp-title">{ this.state.MostViewedPost.title }</h1>
-                        <p className="mvp-date">{ MostViewedPostDate }</p>
+                    <div className="mvp-data">
+                        <div className="mvp-img"></div>
+                        <div className="wrapper">
+                            <h1 className="mvp-title">{ this.state.MostViewedPost.title }</h1>
+                            <p className="mvp-date">{ MostViewedPostDate }</p>
+                        </div>
                     </div>
                 </div>
             )

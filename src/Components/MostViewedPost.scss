@@ -1,6 +1,7 @@
 @import '../variables';
 
 div#MostViewedPost {
+
     h1 {
         &.title {
             margin-left: $padding;
@@ -8,18 +9,64 @@ div#MostViewedPost {
 
         &.mvp-title {
             font-weight: bold;
-            font-size: 7vw;
+            font-size: 1.5em;
         }
     }
         
+    div.mvp-data {
 
-    p.mvp-date {
-        font-weight: normal;
-        font-size: 5vw;
-        color: rgba($color: #3C3C43, $alpha: .6)
+        display: flex;
+        flex-direction: column;
+
+        div.mvp-img {
+            width: 100vw;
+            height: 60vw;
+            margin-bottom: 10px;
+            max-height: 70vw;
+            background-image: url('https://images.unsplash.com/photo-1580408485028-225972105876');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        p.mvp-date {
+            font-weight: normal;
+            font-size: 1em;
+            color: rgba($color: #3C3C43, $alpha: .6)
+        }
     }
 
-    img.mvp-img {
-        width: 100%;
+
+}
+
+@media screen and (min-width: #{$width-m}) {
+    div#MostViewedPost {
+        div.mvp-data {
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 20px;
+            
+            div.mvp-img {
+                width: 60vw;
+                height: 300px;
+                max-height: 60vh;
+                margin: 0 0 0 #{$padding};
+
+                border-radius: 10px;
+            }
+
+            div.wrapper {
+                height: 100%;
+                margin: 0;
+                margin-left: 20px;
+                padding: 0;
+
+                align-items: stretch;
+                justify-content: center;
+
+                h1.mvp-title {
+                    font-size: 2.5em;
+                }
+            }
+        }
     }
 }
